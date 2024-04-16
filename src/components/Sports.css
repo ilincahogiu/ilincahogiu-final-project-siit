@@ -1,0 +1,22 @@
+.sports-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.sport__image {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.sport__name {
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+span {
+    font-size: .8rem;
+    margin: .5rem;
+}
