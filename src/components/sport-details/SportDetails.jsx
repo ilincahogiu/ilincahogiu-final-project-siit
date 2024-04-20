@@ -1,12 +1,20 @@
-import {sports} from '../../data/data';
+import {sports} from '../../data/data.js';
 import {useParams} from 'react-router-dom';
 
 export default function SportDetails() {
-    const { id: idFromPath } = useParams();
+    const { id } = useParams();
+    const selectedSport = sports.find((sport) => sport.id === id);
 
-    const selectedSport = sports.find(sport) => sport.id === id;
+    console.log({ selectedSport });
 
-    return(
-        <h1>I am a sport.</h1>
+    return (
+        <section>
+            <header>
+            <h3>
+            { selectedSport.name }
+            </h3>
+            </header>
+            <img src="selectedSport.imageUrl" alt="" />
+        </section>
     )
 }

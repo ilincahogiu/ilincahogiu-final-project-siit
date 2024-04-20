@@ -1,8 +1,8 @@
 export class Sport {
-    constructor(id, name, imageUrl, numberOfPlacesAvailable) {
+    constructor(id, name, imageUrl, availability) {
         this.id = id;
         this.name = name;
         this.imageUrl = imageUrl;
-        this.numberOfPlacesAvailable = numberOfPlacesAvailable;
+        this.availability = availability;
     }
 }
