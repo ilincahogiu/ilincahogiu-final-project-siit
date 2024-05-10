@@ -2,7 +2,7 @@ import './App.css';
 import Home from './components/home/Home';
 import SportDetails from './components/sport-details/SportDetails';
 import Sports from './components/Sports';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 

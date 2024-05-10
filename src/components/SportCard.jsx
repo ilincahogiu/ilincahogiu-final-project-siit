@@ -18,10 +18,10 @@ function SportCard({ sport }) {
 export default SportCard;
 
 SportCard.propTypes = {
-    sport: {
+    sport: PropTypes.shape ({
         id: PropTypes.string,
         imageUrl: PropTypes.string,
         name: PropTypes.string,
-        availability: PropTypes.string,
-    }
+        availability: PropTypes.number,
+    })
 }
