@@ -28,13 +28,13 @@ export const sports = [
     new Sport(
         5,
         "Football",
-        "/src/assets/images/basketball.jpg",
+        "/src/assets/images/football.jpg",
         3
     ),
     new Sport(
         6,
         "Volleyball",
-        "/src/assets/images/basketball.jpg",
+        "/src/assets/images/volleyball.jpg",
         2
     ),
 ];

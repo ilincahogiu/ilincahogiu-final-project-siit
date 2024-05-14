@@ -1,6 +1,7 @@
 import { sports } from '../data/data.js';
 import SportCard from './SportCard.jsx';
 import './Sports.css';
+import {Link} from 'react-router-dom';
 
 function Sports() {
 
@@ -12,7 +13,10 @@ function Sports() {
 
             <ul className="sports-list">
                 { sports.map((sport) => (
-                    <SportCard key={sport.id} />
+                    <Link key={sport.id} to={`/sport/${sport.id}`}>
+                        <SportCard sport={sport}/>
+                    </Link>
+                    
                 )
             )}
             </ul>

@@ -5,8 +5,6 @@ export default function SportDetails() {
     const { id } = useParams();
     const selectedSport = sports.find((sport) => sport.id === id);
 
-    console.log({ selectedSport });
-
     return (
         <section>
             <header>
