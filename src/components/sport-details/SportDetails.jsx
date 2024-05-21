@@ -8,11 +8,10 @@ export default function SportDetails() {
     return (
         <section>
             <header>
-            <h3>
-            { selectedSport.name }
-            </h3>
+            <h3>{ selectedSport.name }</h3>
             </header>
-            <img src="selectedSport.imageUrl" alt="" />
+            <img src={selectedSport.imageUrl} alt={selectedSport.name} />
+            <p>Availability: {selectedSport.availability}</p>
         </section>
-    )
+    );
 }
