@@ -3,13 +3,13 @@ import Sport from '../components/models.js';
 export const sports = [
     new Sport(
         1,
-        "Table tennis",
+        "Tenis de masă",
         "/src/assets/images/table-tennis.jpg",
         8
     ),
     new Sport(
         2,
-        "Tennis",
+        "Tenis",
         "/src/assets/images/tennis.jpg",
         4
     ),
@@ -21,19 +21,19 @@ export const sports = [
     ),
     new Sport(
         4,
-        "Basketball",
+        "Baschet",
         "/src/assets/images/basketball.jpg",
         3
     ),
     new Sport(
         5,
-        "Football",
+        "Fotbal",
         "/src/assets/images/football.jpg",
         3
     ),
     new Sport(
         6,
-        "Volleyball",
+        "Volei",
         "/src/assets/images/volleyball.jpg",
         2
     ),

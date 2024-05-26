@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 .sports-list {
     display: flex;
     flex-wrap: wrap;
@@ -14,9 +18,11 @@
 .sport__name {
     margin: .5rem;
     font-size: 1rem;
+    color: rgb(102, 102, 102);
 }
 
 span {
     font-size: .8rem;
     margin: .5rem;
+    color: rgb(102, 102, 102);
 }

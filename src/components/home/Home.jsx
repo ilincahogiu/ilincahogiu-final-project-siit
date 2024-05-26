@@ -1,10 +1,8 @@
-import Navbar from '../Navbar';
-import Sports from '../Sports';
+import Sports from '../sports/Sports';
 
 export default function Home() {
     return (
         <>
-            <Navbar></Navbar>
             <Sports></Sports>
         </>
     )
