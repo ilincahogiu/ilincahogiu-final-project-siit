@@ -1,14 +1,11 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import Booking from './components/booking.jsx';
-import Contact from './components/contact.jsx';
-import Login from './components/login.jsx';
-import Register from './components/register.jsx';
+import Navbar from './components/navbar/Navbar.jsx';
+import Home from './components/home/Home.jsx';
+import Booking from './components/Booking.jsx';
+import Contact from './components/Contact.jsx';
+import Login from './components/Login.jsx';
+import Register from './components/Register.jsx';
 import {Route, Routes} from 'react-router-dom';
-
-// import SportDetails from './components/sport-details/SportDetails';
-// import Sports from './components/sports/Sports';
 
 function App() {
 
@@ -25,16 +22,7 @@ function App() {
         </Routes>
       </div>
     </>
-  )
+  );
 }
 
 export default App;
-
-    //     <Route path="logout" element={<h1>You have been logged out</h1>}></Route>
-    //     <Route path="editprofile" element={<h1>You can edit your profile here</h1>}></Route>
-    //     <Route path="facilities" element={<Sports />}></Route>
-    //     <Route path="/sport/:id" element={<SportDetails />}></Route>
-    // </Routes>
-
-
-

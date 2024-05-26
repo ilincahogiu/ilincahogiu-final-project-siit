@@ -1,5 +1,5 @@
 import { sports } from '../../data/data.js';
-import SportCard from '../SportCard.jsx';
+import SportCard from './SportCard.jsx';
 import './Sports.css';
 import {Link} from 'react-router-dom';
 

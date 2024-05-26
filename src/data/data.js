@@ -1,4 +1,4 @@
-import Sport from '../components/models.js';
+import Sport from './models.js';
 
 export const sports = [
     new Sport(
