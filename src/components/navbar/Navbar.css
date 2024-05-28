@@ -12,13 +12,16 @@ body {
 }
 
 .nav {
-    background-color: white;
-    color: rgb(102, 102, 102);
+    background-color: #2ea44f;
+    color: #fff;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    height: 60px;
+    width: 100%;
 }
 
 .site-title {

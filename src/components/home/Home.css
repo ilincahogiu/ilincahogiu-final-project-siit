@@ -1,4 +1,11 @@
 /* CSS */
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 10px;
+}
 .button-3 {
   appearance: none;
   background-color: #2ea44f;
@@ -9,10 +16,10 @@
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 30px;
   padding: 6px 16px;
   position: relative;
   text-align: center;
@@ -48,4 +55,9 @@
 .button-3:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+h1 {
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-weight: 450;
 }
