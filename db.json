@@ -15,6 +15,24 @@
       "email": "ilinca_ilinca@ymail.com",
       "password": "87654321",
       "cpassword": "87654321"
+    },
+    {
+      "id": "0fde",
+      "fname": "Adrian",
+      "lname": "Adrian",
+      "email": "adrianhogiu@yahoo.com",
+      "password": "zxcvbnm",
+      "cpassword": "zxcvbnm"
+    },
+    {
+      "id": "b0d9",
+      "email": "ilincahogiu@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "d7b4",
+      "email": "ilincahogiu@gmail.com",
+      "password": "1234567"
     }
   ]
 }
