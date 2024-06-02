@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "dd06",
+      "fname": "Ilinca",
+      "lname": "Hogiu",
+      "email": "ilincahogiu@gmail.com",
+      "password": "1234567",
+      "cpassword": "1234567"
+    },
+    {
+      "id": "51bc",
+      "fname": "Ilinca",
+      "lname": "Hogiu",
+      "email": "ilinca_ilinca@ymail.com",
+      "password": "87654321",
+      "cpassword": "87654321"
+    }
+  ]
+}

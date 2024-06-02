@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import './Register.css';
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+import axios from 'axios';
 
 export default function Register() {
 
@@ -57,7 +58,11 @@ export default function Register() {
         setValid(isValid)
 
         if(Object.keys(validationErrors).length === 0) {
-            alert ("Successfully registered")
+            axios.post('http://localhost:8000/users', formData)
+            .then(() => {
+                alert("Successfully registered")
+            })
+            .catch(err => console.log(err))
         }
     }
     return (
