@@ -33,6 +33,14 @@
       "id": "d7b4",
       "email": "ilincahogiu@gmail.com",
       "password": "1234567"
+    },
+    {
+      "id": "092c",
+      "fname": "Ilinca",
+      "lname": "Ilinca",
+      "email": "ilincahogiu@gmail.com",
+      "password": "qwertyui",
+      "cpassword": "qwertyui"
     }
   ]
 }

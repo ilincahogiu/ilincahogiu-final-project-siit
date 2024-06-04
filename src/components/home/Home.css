@@ -7,8 +7,9 @@ img {
   border-radius: 10px;
 }
 
-p {
+span {
   padding: 20px;
+  align-items: center;
 }
 
 button {

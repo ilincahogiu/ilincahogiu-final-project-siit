@@ -16,7 +16,8 @@ function SportDetails() {
             <p>Vă rugăm să distribuiți link-ul primit la confirmarea rezervării către toate persoanele care urmează să joace. Toți participanții la joc trebuie să confirme participarea accesând link-ul primit.</p>
             <p><strong>Înregistrare: </strong>Înainte de a intra la joc, vă rugăm să vă prezentați la recepție pentru scanarea cardului de membru. Acesta se emite odată cu prezentarea la prima rezervare (pe baza actului de identitate).</p>
             <p>Jucătorii vor folosi propriile mingi și echipamente necesare jocului.</p>
-            <p><strong>Disponibile: </strong> {selectedSport.availability}</p>
+            <p><strong>Disponibile: </strong> {selectedSport.availability} terenuri/mese</p>
+            <p><button>Rezervă acum</button></p>
         </section>
     );
 }
