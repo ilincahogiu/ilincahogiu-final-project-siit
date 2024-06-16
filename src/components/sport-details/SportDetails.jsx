@@ -1,13 +1,15 @@
 import {sports} from '../../data/data.js';
 import {useParams} from 'react-router-dom';
 import './SportDetails.css';
+import DatePicker from '../datepicker/DatePicker.jsx';
 
 function SportDetails() {
     const { id } = useParams();
     const selectedSport = sports.find((sport) => sport.id === Number(id));
 
     return (
-        <section>
+        <>
+            <section>
             <header>
             <h3>{ selectedSport.name }</h3>
             </header>
@@ -17,9 +19,10 @@ function SportDetails() {
             <p><strong>Înregistrare: </strong>Înainte de a intra la joc, vă rugăm să vă prezentați la recepție pentru scanarea cardului de membru. Acesta se emite odată cu prezentarea la prima rezervare (pe baza actului de identitate).</p>
             <p>Jucătorii vor folosi propriile mingi și echipamente necesare jocului.</p>
             <p><strong>Disponibile: </strong> {selectedSport.availability} terenuri/mese</p>
-            <p><button>Rezervă acum</button></p>
         </section>
+
+        </>
+
     );
 }
-
 export default SportDetails;

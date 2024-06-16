@@ -7,6 +7,8 @@ import Login from './components/login/Login.jsx';
 import Register from './components/register/Register.jsx';
 import SportDetails from './components/sport-details/SportDetails.jsx';
 import {Route, Routes} from 'react-router-dom';
+import DateTimePicker from 'react-datetime-picker';
+import DatePicker from'./components/datepicker/DatePicker.jsx';
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
           <Route path="login" element={<Login />} />     
           <Route path="register" element={<Register />} />  
           <Route path="sport/:id" element={<SportDetails /> } />
+          <Route path="/date" element ={<DatePicker /> } />
         </Routes>
       </div>
     </>

@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 img {
   display: block;
-  margin: 0 auto;
-  width: 600px;
+  margin: 20px auto;
   border-radius: 10px;
 }
 
@@ -12,7 +18,7 @@ span {
   align-items: center;
 }
 
-button {
+.button-home {
   width: 200px;
   height: 45px;
   background: #298e46;
